@@ -1,0 +1,9 @@
+
+statements:
+    statement
+    | statement statements
+    ;
+
+statement:
+    'expr' expression ';'
+    ;
